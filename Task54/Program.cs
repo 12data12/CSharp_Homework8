@@ -3,7 +3,7 @@
 Console.WriteLine("Enter array size (m*n) and range of random values: ");
 int m = InputNumbers("Enter m: ");
 int n = InputNumbers("Enter n: ");
-int range = InputNumbers("Enter range of values "); 
+int range = InputNumbers("Enter a range of values "); 
 
 int [,] array = new int[m, n];
 CreateArray(array);
